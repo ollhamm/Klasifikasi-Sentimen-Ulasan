@@ -1,50 +1,49 @@
-# Petunjuk Menjalankan Aplikasi
+# Application Running Instructions
 
-Aplikasi ini terdiri dari backend yang ditulis menggunakan Flask dan frontend menggunakan Next.js. Berikut langkah-langkah untuk menjalankan aplikasi ini:
+This application consists of a backend written using Flask and a frontend using Next.js. Here are the steps to run this application:
 
-## Persiapan
+## Preparation
 
-Pastikan Anda telah menginstal Python, Node.js, dan npm di komputer Anda sebelum menjalankan aplikasi ini.
+Make sure you have Python, Node.js, and npm installed on your computer before running this application.
 
-## Instalasi Paket
+## Package Installation
 
-1. Buka terminal atau command prompt.
-2. Masuk ke direktori `backend`.
-3. Jalankan perintah berikut untuk menginstal paket Flask dan dependensinya:
+1. Open a terminal or command prompt.
+2. Go to the `backend` directory.
+3. Run the following command to install the Flask package and its dependencies:
 
-    ```bash
+    ``bash
     pip install -r requirements.txt
     ```
 
-4. Kembali ke direktori utama aplikasi.
-5. Masuk ke direktori `frontend`.
-6. Jalankan perintah berikut untuk menginstal paket-paket yang dibutuhkan untuk frontend:
+4. Return to the application's main directory.
+5. Go to the `frontend` directory.
+6. Run the following command to install the packages needed for the frontend:
 
-    ```bash
+    ``bash
     npm install
     ```
 
-## Menjalankan Backend
+## Running the Backend
 
-1. Kembali ke direktori utama aplikasi.
-2. Masuk ke direktori `backend`.
-3. Jalankan perintah berikut untuk menjalankan backend Flask:
+1. Return to the main directory of the application.
+2. Go to the `backend` directory.
+3. Run the following command to start the Flask backend:
 
-    ```bash
+    ``bash
     python src/app.py
     ```
 
-## Menjalankan Frontend
+## Running the Frontend
 
-1. Kembali ke direktori utama aplikasi.
-2. Masuk ke direktori `frontend`.
-3. Jalankan perintah berikut untuk menjalankan frontend Next.js:
+1. Return to the main directory of the application.
+2. Go to the `frontend` directory.
+3. Run the following command to run the Next.js frontend:
 
     ```bash
     npm run dev
     ```
 
-## Mengakses Aplikasi
+## Accessing the Application
 
-Setelah backend dan frontend berjalan, Anda dapat mengakses aplikasi melalui browser dengan membuka `http://localhost:3000`.
-
+Once the backend and frontend are running, you can access the application through a browser by going to `http://localhost:3000`.
